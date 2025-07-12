@@ -539,6 +539,14 @@ td {
     font-weight: 400;
 }
 
+.gradient-logo {
+    background: linear-gradient(90deg, #10B981, #48BACA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
 //Shortcut Classes
 
 .text-white {

@@ -3,6 +3,10 @@ import { SharedModule } from './shared.module';
 import { LoaderService } from './loader/loader.service';
 import { Router } from '@angular/router';
 import { AppService } from './services/app.service';
+import { MgNavbarComponent } from "./components/navbar/navbar.component";
+import { MgSliderComponent } from './components/slider/slider.component';
+import { MgFeaturesComponent } from "./components/features/features.component";
+import { MgFooterComponent } from "./components/footer/footer.component";
 
 @Component({
   selector: 'app-root',
@@ -10,6 +14,10 @@ import { AppService } from './services/app.service';
   styleUrl: './app.component.scss',
   imports: [
     SharedModule,
+    MgNavbarComponent,
+    MgSliderComponent,
+    MgFeaturesComponent,
+    MgFooterComponent
   ],
   standalone: true
 })
